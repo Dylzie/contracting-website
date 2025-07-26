@@ -4,16 +4,16 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Dad's Contracting & Equipment Hire - Professional Excavation & Hauling Services">
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-construction-black to-construction-dark text-construction-white py-20" transition:name="hero">
+  <section class="bg-gradient-to-r from-construction-black to-construction-dark text-construction-white py-24 md:py-32 lg:py-40" transition:name="hero">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up" transition:name="hero-title">
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 md:mb-12 animate-fade-in-up" transition:name="hero-title">
         Professional Excavation & Equipment Hire
       </h1>
-      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up animation-delay-300">
+      <p class="text-xl md:text-2xl lg:text-3xl mb-12 md:mb-16 max-w-4xl mx-auto animate-fade-in-up animation-delay-300">
         Quality equipment rental, expert excavation services, and reliable material hauling. 
         Over 20 years of experience you can trust.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
+      <div class="flex flex-col sm:flex-row gap-6 md:gap-8 justify-center animate-fade-in-up animation-delay-600">
         <a href="/contact" class="bg-construction-orange hover:bg-construction-orange-dark hover:scale-105 hover:shadow-xl text-construction-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 ease-in-out transform">
           Get Free Quote
         </a>
@@ -25,66 +25,66 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- Services Overview -->
-  <section class="py-16 bg-construction-white" transition:name="services">
+  <section class="py-20 md:py-28 lg:py-36 bg-construction-white" transition:name="services">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 scroll-animate">
-        <h2 class="text-3xl md:text-4xl font-bold text-construction-black mb-4">
+      <div class="text-center mb-16 md:mb-20 lg:mb-24 scroll-animate">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-construction-black mb-6 md:mb-8">
           Our Services
         </h2>
-        <p class="text-xl text-construction-gray max-w-2xl mx-auto">
+        <p class="text-xl md:text-2xl text-construction-gray max-w-3xl mx-auto">
           From equipment rental to full-service excavation projects, we've got you covered.
         </p>
       </div>
       
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
         <!-- Equipment Rental -->
-        <div class="bg-construction-light-gray rounded-lg p-8 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.1s;">
-          <div class="bg-construction-orange/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 hover:bg-construction-orange/30 transition-colors duration-300">
-            <svg class="w-8 h-8 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+        <div class="bg-construction-light-gray rounded-lg p-10 md:p-12 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.1s;">
+          <div class="bg-construction-orange/20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6 hover:bg-construction-orange/30 transition-colors duration-300">
+            <svg class="w-10 h-10 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
               <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-3 text-construction-black">Equipment Rental</h3>
-          <p class="text-construction-gray mb-4">
+          <h3 class="text-xl md:text-2xl font-semibold mb-4 text-construction-black">Equipment Rental</h3>
+          <p class="text-construction-gray mb-6 text-base md:text-lg leading-relaxed">
             Rent our well-maintained excavators, diggers, and trucks for your projects. 
             Competitive daily and weekly rates.
           </p>
-          <a href="/equipment" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300">
+          <a href="/equipment" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300 text-lg">
             View Equipment <span class="ml-1 transform transition-transform duration-300 hover:translate-x-1">→</span>
           </a>
         </div>
         
         <!-- Excavation Services -->
-        <div class="bg-construction-light-gray rounded-lg p-8 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.2s;">
-          <div class="bg-construction-orange/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 hover:bg-construction-orange/30 transition-colors duration-300">
-            <svg class="w-8 h-8 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+        <div class="bg-construction-light-gray rounded-lg p-10 md:p-12 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.2s;">
+          <div class="bg-construction-orange/20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6 hover:bg-construction-orange/30 transition-colors duration-300">
+            <svg class="w-10 h-10 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd"/>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-3 text-construction-black">Excavation Services</h3>
-          <p class="text-construction-gray mb-4">
+          <h3 class="text-xl md:text-2xl font-semibold mb-4 text-construction-black">Excavation Services</h3>
+          <p class="text-construction-gray mb-6 text-base md:text-lg leading-relaxed">
             Professional excavation with skilled operators. Site preparation, 
             trenching, and foundation work.
           </p>
-          <a href="/services" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300">
+          <a href="/services" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300 text-lg">
             Learn More <span class="ml-1 transform transition-transform duration-300 hover:translate-x-1">→</span>
           </a>
         </div>
         
         <!-- Material Hauling -->
-        <div class="bg-construction-light-gray rounded-lg p-8 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.3s;">
-          <div class="bg-construction-orange/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 hover:bg-construction-orange/30 transition-colors duration-300">
-            <svg class="w-8 h-8 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+        <div class="bg-construction-light-gray rounded-lg p-10 md:p-12 text-center hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-500 ease-in-out transform scroll-animate" style="animation-delay: 0.3s;">
+          <div class="bg-construction-orange/20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6 hover:bg-construction-orange/30 transition-colors duration-300">
+            <svg class="w-10 h-10 text-construction-orange hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
               <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
               <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707L16 7.586A1 1 0 0015.414 7H14z"/>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-3 text-construction-black">Material Hauling</h3>
-          <p class="text-construction-gray mb-4">
+          <h3 class="text-xl md:text-2xl font-semibold mb-4 text-construction-black">Material Hauling</h3>
+          <p class="text-construction-gray mb-6 text-base md:text-lg leading-relaxed">
             Reliable transport for gravel, dirt, sand, and construction materials. 
             Fast delivery across the region.
           </p>
-          <a href="/services" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300">
+          <a href="/services" class="text-construction-orange hover:text-construction-orange-dark font-medium inline-flex items-center hover:gap-2 transition-all duration-300 text-lg">
             Get Quote <span class="ml-1 transform transition-transform duration-300 hover:translate-x-1">→</span>
           </a>
         </div>
@@ -93,15 +93,15 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- Why Choose Us -->
-  <section class="py-16 bg-construction-light-gray" transition:name="features">
+  <section class="py-20 md:py-28 lg:py-36 bg-construction-light-gray" transition:name="features">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 scroll-animate">
-        <h2 class="text-3xl md:text-4xl font-bold text-construction-black mb-4">
+      <div class="text-center mb-16 md:mb-20 lg:mb-24 scroll-animate">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-construction-black mb-6 md:mb-8">
           Why Choose Us?
         </h2>
       </div>
       
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
         <div class="text-center scroll-animate hover:scale-105 transition-transform duration-300" style="animation-delay: 0.1s;">
           <div class="bg-construction-orange rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 p-4 hover:shadow-lg hover:scale-110 transition-all duration-300">
             <span class="text-construction-white font-bold text-xl">20+</span>
@@ -138,15 +138,15 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- Call to Action -->
-  <section class="py-16 bg-construction-black text-construction-white" transition:name="cta">
+  <section class="py-24 md:py-32 lg:py-40 bg-construction-black text-construction-white" transition:name="cta">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 scroll-animate">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12 scroll-animate">
         Ready to Get Started?
       </h2>
-      <p class="text-xl mb-8 scroll-animate" style="animation-delay: 0.2s;">
+      <p class="text-xl md:text-2xl mb-12 md:mb-16 scroll-animate" style="animation-delay: 0.2s;">
         Contact us today for a free quote on your next project.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center scroll-animate" style="animation-delay: 0.4s;">
+      <div class="flex flex-col sm:flex-row gap-6 md:gap-8 justify-center scroll-animate" style="animation-delay: 0.4s;">
         <a href="/contact" class="bg-construction-orange hover:bg-construction-orange-dark hover:scale-105 hover:shadow-xl text-construction-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 ease-in-out transform">
           Request Quote
         </a>
@@ -235,7 +235,13 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- Scroll Animation Script -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    function initializeAnimations() {
+      // Reset any existing animations
+      const scrollElements = document.querySelectorAll('.scroll-animate');
+      scrollElements.forEach((el) => {
+        el.classList.remove('animate');
+      });
+
       // Intersection Observer for scroll animations
       const observerOptions = {
         threshold: 0.1,
@@ -252,7 +258,6 @@ import Layout from '../layouts/Layout.astro';
       }, observerOptions);
 
       // Observe all scroll-animate elements
-      const scrollElements = document.querySelectorAll('.scroll-animate');
       scrollElements.forEach((el) => {
         observer.observe(el);
       });
@@ -274,12 +279,25 @@ import Layout from '../layouts/Layout.astro';
       // Add parallax effect to hero section
       const hero = document.querySelector('[transition\\:name="hero"]');
       if (hero) {
-        window.addEventListener('scroll', () => {
+        const handleScroll = () => {
           const scrolled = window.pageYOffset;
           const parallax = scrolled * 0.5;
           hero.style.transform = `translateY(${parallax}px)`;
-        });
+        };
+        
+        // Remove existing scroll listeners to prevent duplicates
+        window.removeEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
       }
-    });
+    }
+
+    // Initialize on first load
+    document.addEventListener('DOMContentLoaded', initializeAnimations);
+    
+    // Re-initialize after view transitions
+    document.addEventListener('astro:page-load', initializeAnimations);
+    
+    // Also handle the newer astro:after-swap event for better compatibility
+    document.addEventListener('astro:after-swap', initializeAnimations);
   </script>
 </Layout>
