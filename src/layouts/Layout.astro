@@ -4,7 +4,7 @@ export interface Props {
   description?: string;
 }
 
-const { title, description = "Professional excavation, hauling, and contracting services" } = Astro.props;
+const { title, description = "Professional excavation, hauling, and contracting services in Gisborne, New Zealand" } = Astro.props;
 import '../styles/global.css';
 import { ViewTransitions } from 'astro:transitions';
 ---
@@ -99,11 +99,12 @@ import { ViewTransitions } from 'astro:transitions';
           <div>
             <h3 class="text-lg md:text-xl lg:text-2xl font-semibold mb-4 md:mb-6">Our Services</h3>
             <ul class="space-y-4 md:space-y-5 text-sm md:text-base lg:text-lg">
+              <li>Track Building</li>
+              <li>Area Clearing</li>
+              <li>Water Tabling</li>
+              <li>Drain Clearing</li>
+              <li>Culvert Installation</li>
               <li>Equipment Rental</li>
-              <li>Excavation Services</li>
-              <li>Material Hauling</li>
-              <li>Site Preparation</li>
-              <li>Skilled Operator Services</li>
             </ul>
           </div>
           
