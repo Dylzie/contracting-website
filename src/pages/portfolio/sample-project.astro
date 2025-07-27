@@ -1,0 +1,242 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Sample Project - 4010 Contracting LTD Portfolio">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-construction-black to-construction-dark text-construction-white py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Breadcrumb -->
+      <nav class="mb-8">
+        <a href="/portfolio" class="text-construction-orange hover:text-construction-orange-dark">← Back to Portfolio</a>
+      </nav>
+      
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 lg:mb-8">
+          Sample Project Title
+        </h1>
+        <div class="flex flex-wrap justify-center gap-4 text-lg">
+          <span class="bg-construction-orange px-4 py-2 rounded-lg">Track Building</span>
+          <span class="bg-construction-orange px-4 py-2 rounded-lg">Drainage</span>
+          <span class="bg-construction-orange px-4 py-2 rounded-lg">Excavation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <!-- Project Overview -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20">
+      <div class="lg:col-span-2">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-6">Project Overview</h2>
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+          This is a sample case study template. Replace this content with actual project details, 
+          challenges faced, solutions implemented, and outcomes achieved. Include specific details 
+          about the scope of work, timeline, and any special considerations.
+        </p>
+        <p class="text-lg text-gray-600 leading-relaxed">
+          Describe the client's requirements, site conditions, and any unique aspects of the project 
+          that showcase your expertise and problem-solving capabilities.
+        </p>
+      </div>
+      
+      <!-- Project Details Sidebar -->
+      <div class="bg-construction-light-gray rounded-lg p-8">
+        <h3 class="text-xl font-bold mb-6">Project Details</h3>
+        <div class="space-y-4">
+          <div>
+            <span class="font-semibold text-construction-black">Client:</span>
+            <p class="text-gray-600">Confidential/Client Name</p>
+          </div>
+          <div>
+            <span class="font-semibold text-construction-black">Location:</span>
+            <p class="text-gray-600">Gisborne, New Zealand</p>
+          </div>
+          <div>
+            <span class="font-semibold text-construction-black">Duration:</span>
+            <p class="text-gray-600">3 weeks</p>
+          </div>
+          <div>
+            <span class="font-semibold text-construction-black">Services:</span>
+            <ul class="text-gray-600 mt-2 space-y-1">
+              <li>• Track construction</li>
+              <li>• Drainage system installation</li>
+              <li>• Site preparation</li>
+            </ul>
+          </div>
+          <div>
+            <span class="font-semibold text-construction-black">Equipment Used:</span>
+            <ul class="text-gray-600 mt-2 space-y-1">
+              <li>• 15-ton excavator</li>
+              <li>• Dump trucks</li>
+              <li>• Compactor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <section class="mb-20">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-8">Project Gallery</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Before Photos -->
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">Before Photo 1</p>
+            <p class="text-sm text-gray-500">Site conditions before work</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">Before Photo 2</p>
+            <p class="text-sm text-gray-500">Initial site survey</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">During Construction</p>
+            <p class="text-sm text-gray-500">Work in progress</p>
+          </div>
+        </div>
+        
+        <!-- After Photos -->
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">After Photo 1</p>
+            <p class="text-sm text-gray-500">Completed track</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">After Photo 2</p>
+            <p class="text-sm text-gray-500">Drainage system</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-gray-600 font-medium">Final Result</p>
+            <p class="text-sm text-gray-500">Project completion</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Challenges & Solutions -->
+    <section class="mb-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-3xl lg:text-4xl font-bold mb-6">Challenges</h2>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="bg-red-100 rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-2">Challenging Terrain</h3>
+                <p class="text-gray-600">Steep slopes and rocky ground conditions required specialized equipment and techniques.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="bg-red-100 rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-2">Weather Constraints</h3>
+                <p class="text-gray-600">Heavy rainfall during the project required careful scheduling and site management.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h2 class="text-3xl lg:text-4xl font-bold mb-6">Solutions</h2>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="bg-green-100 rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-2">Specialized Equipment</h3>
+                <p class="text-gray-600">Used track-mounted excavators and specialized attachments to handle difficult terrain safely.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="bg-green-100 rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-2">Flexible Scheduling</h3>
+                <p class="text-gray-600">Implemented weather monitoring and adaptive scheduling to maximize productive working days.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results & Client Feedback -->
+    <section class="mb-20">
+      <div class="bg-construction-light-gray rounded-lg p-8 lg:p-12">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-8 text-center">Project Results</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="bg-construction-orange rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-construction-white font-bold text-xl">✓</span>
+            </div>
+            <h3 class="font-semibold mb-2">On Time</h3>
+            <p class="text-gray-600">Completed within the scheduled 3-week timeframe despite weather challenges.</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="bg-construction-orange rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-construction-white font-bold text-xl">$</span>
+            </div>
+            <h3 class="font-semibold mb-2">On Budget</h3>
+            <p class="text-gray-600">Project delivered within the agreed budget with no unexpected costs.</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="bg-construction-orange rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-construction-white font-bold text-xl">★</span>
+            </div>
+            <h3 class="font-semibold mb-2">Satisfied Client</h3>
+            <p class="text-gray-600">Client extremely happy with quality and professionalism throughout the project.</p>
+          </div>
+        </div>
+        
+        <!-- Client Testimonial -->
+        <div class="mt-12 text-center">
+          <blockquote class="text-xl italic text-gray-700 mb-4">
+            "4010 Contracting delivered exceptional work on our challenging site. Their professionalism and expertise made all the difference."
+          </blockquote>
+          <cite class="text-construction-orange font-semibold">- Project Client</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation -->
+    <div class="flex justify-between items-center">
+      <a href="/portfolio" class="bg-construction-orange hover:bg-construction-orange-dark text-construction-white px-8 py-3 rounded-lg font-semibold transition-colors">
+        ← Back to Portfolio
+      </a>
+      
+      <div class="text-center">
+        <p class="text-gray-600 mb-4">Interested in similar work?</p>
+        <a href="/contact" class="bg-construction-black hover:bg-construction-dark text-construction-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          Get Your Quote
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
